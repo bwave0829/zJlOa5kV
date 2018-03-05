@@ -1,0 +1,6 @@
+#
+# conf for batget
+#	sheetname , cell
+Sheet?,a1
+Sheet*,a2
+index,E1

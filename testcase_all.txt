@@ -1,0 +1,18 @@
+extool.exe get .\sample1.xlsx "Sheet?" A1
+
+extool.exe test .\sample1.xlsx "Sheet1" A1 "A1A1"
+
+extool.exe set .\sample1.xlsx "Sheet1" A1 "A1A1"
+
+extool.exe getall .\ "Sheet?" A1
+
+extool.exe testall .\ "Sheet?" A1 "---"
+
+extool.exe setall .\ "Sheet?" A1 "---"
+
+
+extool.exe batget .\sample1.xlsx .\conf01.txt
+
+extool.exe batgetall .\ .\conf01.txt
+
+extool.exe batsetall .\ .\conf02.txt
