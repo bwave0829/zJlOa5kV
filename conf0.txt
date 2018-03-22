@@ -1,0 +1,2 @@
+ttermpro,first,clear && hostname && date && tail -0f /var/log/messages | tee /var/tmp/message@1~
+ttermpro,second,clear && hostname && date && tail -0f /var/log/messages | tee /var/tmp/message@1@2~
